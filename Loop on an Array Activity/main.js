@@ -2,9 +2,8 @@
 // Define a function arrayFlattener with a 2d array as parameter:
 // [1,[2,3],4,5]
 
-//Return a new 1 dimensional array like, [1,2,3,4]
+//Returning a new 1 dimensional array like, [1,2,3,4]
 
-//your code
 function arrayFlattener(arr) {
   var newArr = [];
 
@@ -15,9 +14,6 @@ function arrayFlattener(arr) {
   return newArr;
 }
 
-//uncomment next line one by one, then check the console for results
+//testing...
 console.log(arrayFlattener([1, [2, 3], 4, 5]));
 
-//don't change this line
-
-  module.exports =  {arrayFlattener};
