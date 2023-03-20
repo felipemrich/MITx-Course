@@ -14,7 +14,3 @@ console.log('myFirstName: ', myFirstName);
 console.log('numberOfCities: ', numberOfCities);
 console.log('havingFun: ', havingFun);
 
-// Do not edit code past this point
-if (typeof module !== 'undefined') {
-  module.exports = { myFirstName, numberOfCities, havingFun };
-}
