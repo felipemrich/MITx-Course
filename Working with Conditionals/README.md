@@ -1,14 +1,5 @@
-Name: Working with Conditionals
-
-Description: In this activity i coded in JavaScipt to create a function that checks if the conditional is true or false using if statments and booleans.
-First, i created a variable with no value, because the value will be assign inside the function. Inside the function i created an if statment that return if input is older than 18 or not!
-
-Installation: You can try this in your browser, terminal or any text editor you prefer. I am using VS Code. 
-
-Usage: This activity it is usefull for creating a simple conditional using if 
-
-Support: email(felipeemrichdearaujo@gmail.com)
-
-Roadmap: 'working'
-
-License information: Licenced
+<div class="markdown prose w-full break-words dark:prose-invert light"><h1>Voting Eligibility Check</h1><p>This simple JavaScript code performs a voting eligibility check based on a person's age. It contains a function called <code>isOldEnoughToVote(age)</code> that takes an <code>age</code> parameter as input and returns a boolean value indicating whether the person is eligible to vote or not.</p><h2>How to Use</h2><ol><li><p>Copy and paste the code into your JavaScript environment or file.</p></li><li><p>Use the <code>isOldEnoughToVote(age)</code> function to check if a person is old enough to vote. Pass the person's age as an argument to the function.</p></li></ol><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-comment">// Example usage:</span>
+<span class="hljs-keyword">let</span> personAge = <span class="hljs-number">18</span>; <span class="hljs-comment">// Change the age as needed</span>
+<span class="hljs-keyword">let</span> result = <span class="hljs-title function_">isOldEnoughToVote</span>(personAge);
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">'Result:'</span>, result); <span class="hljs-comment">// Output will be "true" or "false" based on the person's age.</span>
+</code></div></div></pre><h2>Explanation</h2><p>The <code>isOldEnoughToVote(age)</code> function checks if the provided <code>age</code> is greater than or equal to 18, which is the legal voting age in many countries. If the condition is true, the variable <code>response</code> is assigned the value <code>true</code>, indicating that the person is eligible to vote. Otherwise, if the condition is false, <code>response</code> is assigned the value <code>false</code>, indicating that the person is not eligible to vote.</p><p>The function then returns the value of the <code>response</code> variable, which is used to display the result.</p><p>Note: Make sure to open the browser console to check the results of the example provided in the code.</p><p>Feel free to use and modify this code according to your needs. Happy coding!</p></div>
