@@ -1,13 +1,21 @@
-Name: Hello Word!
+<div class="markdown prose w-full break-words dark:prose-invert light"><h1>Delayed "Hello World"</h1><p>This is a JavaScript code snippet that demonstrates how to create a function that displays "Hello World" on the console and another function that delays the execution of the first function by 3 seconds.</p><h2>Function Explanation</h2><h3>Function: <code>sayHello()</code></h3><ul><li>The <code>sayHello</code> function is defined to display "Hello World" on the console using <code>console.log()</code>.</li></ul><h3>Function: <code>delaySayHello()</code></h3><ul><li>The <code>delaySayHello</code> function uses <code>setTimeout</code> to schedule the execution of the <code>sayHello</code> function after a delay of 3 seconds (3000 milliseconds).</li></ul><h2>Usage</h2><p>To use these functions:</p><ol><li><p>Copy the provided JavaScript code into your JavaScript environment (e.g., browser console, Node.js, etc.).</p></li><li><p>Call the <code>sayHello</code> function to see "Hello World" displayed on the console immediately.</p></li><li><p>Call the <code>delaySayHello</code> function to see "Hello World" displayed on the console after a delay of 3 seconds.</p></li></ol><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>javascript</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-javascript"><span class="hljs-comment">// Write a function to display "Hello World" on the console</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">sayHello</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello World"</span>);
+}
 
-Description: In this activity i coded in JavaScipt the first exercise when you start learning code. I used console.log to print "hello word!"
+<span class="hljs-comment">// Write another function to delay the execution of the 1st function by 3 seconds</span>
+<span class="hljs-keyword">function</span> <span class="hljs-title function_">delaySayHello</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-built_in">setTimeout</span>(sayHello, <span class="hljs-number">3000</span>);
+}
 
-Installation: You can try this in your browser, terminal or any text editor you prefer. I am using VS Code. 
+<span class="hljs-comment">// Call the sayHello function to display "Hello World" immediately</span>
+<span class="hljs-title function_">sayHello</span>();
 
-Usage: This activity it is usefull for beginners
+<span class="hljs-comment">// Call the delaySayHello function to display "Hello World" after a 3-second delay</span>
+<span class="hljs-title function_">delaySayHello</span>();
+</code></div></div></pre><h2>Output</h2><p>Calling <code>sayHello()</code> will immediately display "Hello World" on the console.</p><p>Calling <code>delaySayHello()</code> will schedule the execution of <code>sayHello()</code> after a delay of 3 seconds, and "Hello World" will be displayed on the console after that delay.</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>arduino</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-arduino"><span class="hljs-comment">// Immediate output</span>
+Hello World
 
-Support: email(felipeemrichdearaujo@gmail.com)
-
-Roadmap: 'working'
-
-License information: Licenced
+<span class="hljs-comment">// Output after 3 seconds</span>
+Hello World
+</code></div></div></pre><h2>Note</h2><p>In the original code, <code>setTimeout(sayHello(), 3000);</code> should be changed to <code>setTimeout(sayHello, 3000);</code>. We need to pass the reference to the function <code>sayHello</code> to <code>setTimeout</code>, not the result of calling the function. The correct syntax schedules the execution of the function <code>sayHello</code> after a delay of 3 seconds.</p></div>
