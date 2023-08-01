@@ -1,14 +1,2 @@
-Name: Working with arrays
-
-Description: In this activity i coded in JavaScipt to create an array and printed out the element index. Remember, the first element has index 0, then 1, 2, 3...
-So if you want to reach the third array, you must write the arrayName[Position -1].
-
-Installation: You can try this in your browser, terminal or any text editor you prefer. I am using VS Code. 
-
-Usage: This activity it is usefull for creating an array and returning an element by his index.
-
-Support: email(felipeemrichdearaujo@gmail.com)
-
-Roadmap: 'working'
-
-License information: Licenced
+<div class="markdown prose w-full break-words dark:prose-invert light"><h1>Array Element Access</h1><p>This JavaScript code snippet demonstrates how to declare an array containing numbers from 1 to 10 and access an element at a specific index. It then outputs the accessed element to the browser console.</p><h2>Code Explanation</h2><ol><li><p>A constant <code>numArray</code> is declared and initialized with an array containing numbers from 1 to 10.</p></li><li><p>The variable <code>elementAtIndexFive</code> is declared and assigned the value of the element at index 5 (6th element) of the <code>numArray</code>. In JavaScript, array indexing starts from 0, so index 5 corresponds to the number 6 in the array.</p></li><li><p>The value of the element at index 5 (6th element) of the array is output to the browser console using <code>console.log</code>. The output will be <code>The array element with index 5 is: 6</code>, which confirms that the element at index 5 of the array is 6.</p></li></ol><h2>Usage</h2><p>To use this code:</p><ol><li><p>Copy the provided JavaScript code into your JavaScript environment (e.g., browser console, Node.js, etc.).</p></li><li><p>Execute the code, and you will see the element at index 5 (6th element) of the array being displayed in the browser console.</p></li><li><p>Feel free to modify the <code>numArray</code> to contain different elements or access elements at different indices to see their values in the console.</p></li></ol><h2>Output</h2><p>The code will output the following line to the browser console:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>csharp</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-csharp">The array element <span class="hljs-keyword">with</span> index <span class="hljs-number">5</span> <span class="hljs-keyword">is</span>: <span class="hljs-number">6</span>
+</code></div></div></pre><p>This confirms that the element at index 5 (6th element) of the array is 6, as expected.</p></div>
