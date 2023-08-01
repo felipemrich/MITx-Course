@@ -1,13 +1,4 @@
-Name: BASIC TYPES ACTIVITY
-
-Description: In this activity i created 3 variables using LET and them i printed using console.log.
-
-Installation: You can try this in your browser, terminal or any text editor you prefer. I am using VS Code. 
-
-Usage: This activity it is usefull for learning the basic types we can use when writting code
-
-Support: email(felipeemrichdearaujo@gmail.com 
-
-Roadmap: 'working'
-
-License information: Licenced
+<div class="markdown prose w-full break-words dark:prose-invert light"><h1>Basic Types Activity</h1><p>This is a simple JavaScript activity that involves creating three variables and checking their types using the <code>typeof</code> operator in the browser console.</p><h2>Instructions</h2><ol><li><p>Open your browser's developer console. (In most browsers, you can open the console by pressing <code>F12</code> or <code>Ctrl + Shift + J</code>.)</p></li><li><p>In the console, copy and paste the provided code from this file.</p></li><li><p>The code declares three variables: <code>myFirstName</code>, <code>numberOfCities</code>, and <code>havingFun</code>. Each variable has a specific value assigned to it.</p></li><li><p>After declaring the variables, the code logs their values to the console using <code>console.log</code> along with their respective variable names.</p></li><li><p>Observe the output in the console to see the values and their corresponding types.</p></li></ol><h2>Variables</h2><ol><li><p><code>myFirstName</code>: This variable is a string type and contains the value <code>'Guardiola'</code>, representing the first name of a person.</p></li><li><p><code>numberOfCities</code>: This variable is a number type and is initialized with the value <code>0</code>. It likely represents the number of cities visited, with <code>0</code> indicating no cities have been visited yet.</p></li><li><p><code>havingFun</code>: This variable is a boolean type and holds the value <code>true</code>. It indicates whether someone is having fun (<code>true</code>) or not (<code>false</code>).</p></li></ol><h2>Testing</h2><p>After pasting the code into the browser console, you should see the output with the values of each variable and their corresponding types.</p><p>For example, the output in the console might look like this:</p><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>vbnet</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-vbnet"><span class="hljs-symbol">myFirstName:</span> Guardiola
+<span class="hljs-symbol">numberOfCities:</span> <span class="hljs-number">0</span>
+<span class="hljs-symbol">havingFun:</span> <span class="hljs-literal">true</span>
+</code></div></div></pre><p>This confirms that the variables are correctly declared and assigned, and their types are as expected.</p><p>Feel free to modify the values of the variables and run the code again to test different scenarios. Happy coding!</p></div>
