@@ -1,0 +1,15 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#map {
+  width: 60%; /* Adjust the width as per your design */
+  height: 60vh; /* Adjust the height as per your design */
+  /* Add other styles if needed */
+}
